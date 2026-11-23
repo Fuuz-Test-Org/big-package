@@ -1,0 +1,52 @@
+{
+  "applicationPublisherId": null,
+  "assets": [],
+  "catalog": {
+    "assetName": "big-package-0.0.1.fuuz",
+    "description": "",
+    "id": "big-package",
+    "name": "Big Package",
+    "publisher": "Fuuz-Test-Org",
+    "releaseTag": "big-package@0.0.1",
+    "sha256": "7aef79a8e02eae5f37bfb91ffcfeee2d43b100f362604a8393e5b13a609ba5d0",
+    "tags": [],
+    "type": "application",
+    "version": "0.0.1"
+  },
+  "collections": [
+    {
+      "api": "application",
+      "modelName": "ModuleGroup"
+    },
+    {
+      "api": "application",
+      "modelName": "Module"
+    }
+  ],
+  "components": {
+    "dataFlows": [
+      "btc-ingest",
+      "fuuz-connector-test"
+    ],
+    "dataModels": [
+      "secretstest"
+    ],
+    "screens": [
+      "scheduler-configuration-complex-distribution"
+    ]
+  },
+  "dependencies": {},
+  "enterpriseId": "local",
+  "environmentId": "build",
+  "name": "Big Package",
+  "platformVersion": "2026.11.1",
+  "repoLayoutVersion": 1,
+  "repository": {
+    "directory": "apps/big-package",
+    "type": "git",
+    "url": "https://github.com/Fuuz-Test-Org/big-package"
+  },
+  "requiredSecrets": [],
+  "specVersion": "2.0.0",
+  "version": "0.0.1"
+}
